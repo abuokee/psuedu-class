@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.eee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.as {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.ab a {
+    text-decoration: none;
+    color: #1F1534;
+    opacity: 0.6;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.ab a:hover {
+    opacity: 1;
+    font-weight: bold;
+    color: #458FF6; /* hoverda ko‘k rang */
+}
+.rasm{
+    width: 609px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 50px;
+}
+
+.text {
+    max-width: 500px;
+}
+
+.text h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 18px;
+    color: #7D7987;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #458FF6;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #306edc;
+}
+
+.rasm img {
+    width: 100%;
+    max-width: 609px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.card {
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #1F1534;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #7D7987;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+.card:hover {
+  background-color: #458FF6;
+  color: white;
+  transform: translateY(-5px);
+}
+
+.card:hover h3,
+.card:hover p {
+  color: white;
+}
+.articles {
+  text-align: center;
+  padding: 60px 100px;
+  background-color: white;
+}
+
+.articles h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #1F1534;
+}
+
+.article-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.article-cards .card {
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: left;
+  padding: 20px;
+}
+
+.article-cards .card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.article-cards .card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #1F1534;
+}
+
+.article-cards .card p {
+  font-size: 14px;
+  color: #7D7987;
+  margin-bottom: 10px;
+}
+
+.article-cards .card a {
+  text-decoration: none;
+  color: #458FF6;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.article-cards .card:hover {
+  transform: translateY(-5px);
+}
+
+.article-cards .card a:hover {
+  text-decoration: underline;
+}
+
+.view-all {
+  margin-top: 40px;
+}
+
+.view-all button {
+  background-color: #458FF6;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.view-all button:hover {
+  background-color: #306edc;
+}
+.footer {
+  background-color: #67C3F3;
+  padding: 60px 100px;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-left {
+  flex: 1;
+  max-width: 300px;
+}
+
+.footer-left h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ffffff;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.footer-column a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+
+
